@@ -1,0 +1,23 @@
+{
+    "name"  : "e-mail帳號",
+    "pwd"   : "簡易加密後的密碼",
+    "goods" : [
+		{
+		  "item" : "商品網址",
+		  "qty"   : "數量"
+		}
+		],
+		"mon"   : "月",
+		"day"   : "日",
+		"hour"  : "時",
+		"min"   : "分",
+		"sec"   : "秒",
+		"countdown_hour" : "倒數開賣時",
+		"countdown_min"  : "倒數開賣分",
+		"countdown_sec"  : "倒數開賣秒",
+		"refresh_min"    : "幾分開始定時刷新網頁",
+		"period" : "送單週期",
+		"end_min" : "送單持續分",
+		"end_sec" : "送單持續秒",
+		"times"   : "購買次數"
+}
