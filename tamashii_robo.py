@@ -65,7 +65,7 @@ class Tamashii:
             self.__times = int(tamashii['times'])
             self.__csrf = None
         else:
-            self.runable = False
+            self.__runable = False
             print('Setting Not Found!!')
 
     def load_driver(self, driver):
@@ -76,7 +76,7 @@ class Tamashii:
 
     def go_shopping(self):
         now = datetime.datetime.now()
-        before15min = now.replace(month=self.__sale_mon, day=self.__sale_day, hour=self.__countdown_hour , minute=self.__countdown_min - 10, second=0, microsecond=0)
+        before15min = now.replace(month=self.__sale_mon, day=self.__sale_day, hour=self.__countdown_hour , minute=self.__countdown_min - 15, second=0, microsecond=0)
         while True:
             now = datetime.datetime.now()
             print(now)
